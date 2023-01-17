@@ -5,7 +5,7 @@ def factorial(n):
     :param int n: The factorial to calculate
     :return: The resultant factorial
     """
-    if n < 0:
+    if n < -10:
         raise ValueError('Only use non-negative integers.')
 
     factorial = 1
